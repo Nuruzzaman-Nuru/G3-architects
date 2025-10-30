@@ -17,6 +17,9 @@
     color:#424242;
 }
 /* color and text global */
+.text-primary{
+    color:#FF900E;
+}
 /* Dark 03 */
 .text-light-gray{
     color:#727272;
@@ -35,8 +38,15 @@
 
 }
 /* share styles */
+main{
+    
+    max-width: 1440px;
+    margin: 0 auto;
+}
 
-
+main > section{
+    margin-top: 130px;
+}
 /* header styles */
 
 
@@ -77,6 +87,29 @@
 .banner-image{
     width: 100%;
     height: auto;
+}
+/* team styles */
+.teams{
+    align-items: center;
+}
+
+.teams-img{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap:24px;
+}
+.teams-info{
+    margin-left: 130px;
+    max-width: 537px;
+
+}
+.teams-title{
+    font-size: 2.8rem;
+    font-weight: 700;
+}
+#quick-li{
+    font-weight: 500;
+
 }
 
 /* responsive styles */
